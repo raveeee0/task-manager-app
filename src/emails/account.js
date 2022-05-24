@@ -6,7 +6,7 @@ const sendWelcomeEmail = async (email, name) => {
     try {
         await sgMail.send({
             to: email,
-            from: 'graveggi608@gmail.com',
+            from: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx@gmail.com',
             subject: 'Welcome to the app',
             text: `Welcome to our app, ${name}. Let us know how you get along with our app`
         })
@@ -20,7 +20,7 @@ const sendGoodbyeEmail = async (email, name) => {
     try {
         await sgMail.send({
             to: email,
-            from: 'graveggi608@gmail.com',
+            from: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx@gmail.com',
             subject: 'Sorry to see you go',
             text: `We're sorry you want to delete you account ${name}. Let us know went wrong with our app`
         })
